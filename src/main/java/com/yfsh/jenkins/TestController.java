@@ -10,11 +10,11 @@ public class TestController {
 
     @RequestMapping(value = "/test",method = RequestMethod.GET)
     public String test(){
-        return "test";
+        return "mytest";
     }
 
     @RequestMapping(value = "/",method = RequestMethod.GET)
     public String index(){
-        return "index";
+        return "myindex";
     }
 }
